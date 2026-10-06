@@ -1,0 +1,64 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 28px;
+  border-bottom: 2px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.site-header.light {
+  background-color: #ffffff;
+  border-color: #e2e8f0;
+}
+
+.site-header.dark {
+  background-color: #0f172a;
+  border-color: #1e293b;
+}
+
+.header-brand {
+  text-align: left;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.light .header-title {
+  color: #0f172a;
+}
+
+.dark .header-title {
+  color: #f8fafc;
+}
+
+.student-name {
+  margin: 4px 0 0 0;
+  font-size: 0.95rem;
+}
+
+.light .student-name {
+  color: #475569;
+}
+
+.dark .student-name {
+  color: #94a3b8;
+}
+
+.student-name span {
+  font-weight: 700;
+  color: #0284c7;
+}
+
+.dark .student-name span {
+  color: #38bdf8;
+}

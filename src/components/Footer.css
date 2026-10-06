@@ -1,0 +1,26 @@
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  border-radius: 14px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.site-footer.light {
+  background: rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(226, 232, 240, 0.8);
+  color: #64748b;
+}
+
+.site-footer.dark {
+  background: rgba(30, 41, 59, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #94a3b8;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
